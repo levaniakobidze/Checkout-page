@@ -1,0 +1,18 @@
+form {
+  border: 2px solid green;
+  width: 465px;
+  height: 500px;
+}
+
+.form-title h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #4e5150;
+
+  transform: rotate(-0.02deg);
+}
