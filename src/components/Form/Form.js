@@ -1,5 +1,6 @@
 import React from "react";
 import ContactInfo from "../ContactInfo/ContactInfo";
+import Shipping from "../ShippingAdress/Shipping";
 import "./Form.css";
 
 function Form() {
@@ -9,6 +10,10 @@ function Form() {
         <h1>Checkout</h1>
       </div>
       <ContactInfo />
+      <Shipping />
+      <div className='btn-cont'>
+        <button className='btn'>countinue</button>
+      </div>
     </form>
   );
 }

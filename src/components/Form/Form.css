@@ -1,7 +1,5 @@
 form {
-  border: 2px solid green;
   width: 465px;
-  height: 500px;
 }
 
 .form-title h1 {
@@ -15,4 +13,28 @@ form {
   color: #4e5150;
 
   transform: rotate(-0.02deg);
+}
+.btn-cont {
+  margin: 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.btn {
+  width: 166px;
+  height: 54px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  background: #f2994a;
+  border-radius: 12px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
 }

@@ -1,5 +1,21 @@
 .items {
-  border: 2px solid red;
+  /* Gray 6 */
+
+  background: #f2f2f2;
+  border-radius: 12px;
+  padding: 10px 0;
   width: 383px;
-  height: 535px;
+  height: 400px;
+  margin-top: 110px;
+  position: sticky;
+  top: 0%;
+}
+.item {
+  width: 350px;
+  margin: 20px auto;
+}
+.item-img img {
+  width: 145.7px;
+  height: 135.91px;
+  border-radius: 30px;
 }

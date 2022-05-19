@@ -1,8 +1,7 @@
 .App {
-  border: 3px solid rgb(218, 90, 5);
   margin: 50px auto;
-  width: 900px;
-  height: 550px;
+  max-width: 900px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContactInfo.css";
 import MailIcon from "@mui/icons-material/Mail";
+import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 
 function ContactInfo() {
   return (
@@ -14,7 +15,19 @@ function ContactInfo() {
           type='text'
           id='email'
           name='email'
-          placeholder='Enter your email'
+          placeholder='Enter your email...'
+        />
+      </div>
+
+      <label htmlFor='phone'>E-mail</label>
+      <div className='phone-input-cont'>
+        <LocalPhoneIcon className='phone-icon' />
+
+        <input
+          type='phone'
+          id='phone'
+          name='phone'
+          placeholder='Enter your phone...'
         />
       </div>
     </section>

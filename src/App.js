@@ -5,8 +5,8 @@ import Items from "./components/items/Items";
 function App() {
   return (
     <div className='App'>
-      <Form />
       <Items />
+      <Form />
     </div>
   );
 }
