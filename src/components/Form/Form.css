@@ -1,5 +1,6 @@
 form {
   width: 465px;
+  transition: all 0.5s;
 }
 
 .form-title h1 {
@@ -9,9 +10,7 @@ form {
   font-size: 36px;
   line-height: 44px;
   /* identical to box height */
-
   color: #4e5150;
-
   transform: rotate(-0.02deg);
 }
 .btn-cont {
